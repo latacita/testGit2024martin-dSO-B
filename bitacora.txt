@@ -10,3 +10,14 @@
 2      add + commit
 4      branch PrimeraRama + checkout
 6      branch SegundaRama + checkout
+14     En este momento si se hace una fusion desde SegundaRama en PrimeraRama se 
+       haría de forma recursiva, puesto que se ha creado una version nueva de
+       la PrimeraRama despues de la creacion de la SegundaRama y habria 
+       modificaciones en ambas ramas, no pudiendo así colocar los cambios de 
+       SegundaRama y teniendo que reordenar.
+15     En este momento si se hace dicha fusion sobre la rama local master se haria
+       de forma por fast-forward puesto que la rama local no ha sufrido ninguna 
+       modificacion, en cambio si se hace fusion con la version remota de la rama 
+       master se haria de forma recursiva puesto que ha sufrido una modificacion posterior
+       a la creacion de la rama PrimeraRama
+16     checkout SegundaRama
