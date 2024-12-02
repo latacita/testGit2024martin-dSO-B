@@ -9,3 +9,4 @@
 1      clone URL        
 2      add + commit
 4      branch PrimeraRama + checkout
+6      branch SegundaRama + checkout
