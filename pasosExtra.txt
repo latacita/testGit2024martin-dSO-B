@@ -1,0 +1,12 @@
+ Paso   Acción                       Notas
+====== ============================ ================================
+22     push origin master           Da conflicto al haber una nueva version de master en remote, 
+                                    por ello no se hace el push directamente.
+       pull
+       editar bitacora.txt para solucionar los conflictos
+       add bitacora.txt
+       commit
+       push origin master
+23     checkout SegundaRama
+24     crear pasosExtra.txt
+       add pasosExtra.txt
