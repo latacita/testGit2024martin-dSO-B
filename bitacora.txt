@@ -8,3 +8,12 @@
 ====== ============================ ================================
 1      clone URL        
 2      add + commit
+8      push origin SegundaRama
+9      checkout master
+17     checkout PrimeraRama
+18     merge SegundaRama            Fusion recursiva con conflictos
+       editar bitacota.txt para solucionar los conflictos
+       add bitacota.txt
+       commit
+19     checkout master
+20     stash apply
